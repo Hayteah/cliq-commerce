@@ -3,8 +3,8 @@ import Container from "../Container";
 import FooterList from "./FooterList";
 import Link from "next/link";
 import { MdFacebook } from "react-icons/md";
-import { FaTwitter } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
+import { RiTwitterXFill } from "react-icons/ri";
+import { AiFillInstagram } from "react-icons/ai";
 import { FaYoutube } from "react-icons/fa";
 
 const Categories = [
@@ -18,7 +18,7 @@ const Categories = [
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-950 text-white text-sm mt-16">
+    <footer className="bg-blue-950 text-white text-sm mt-16 ">
       <Container>
         <div className="flex flex-col md:flex-row justify-between pt-16 pb-8">
           <FooterList>
@@ -59,10 +59,10 @@ const Footer = () => {
                 <MdFacebook />
               </Link>
               <Link href="#">
-                <FaTwitter />
+                <RiTwitterXFill />
               </Link>
               <Link href="#">
-                <FaInstagram />
+                <AiFillInstagram />
               </Link>
               <Link href="#">
                 <FaYoutube />
